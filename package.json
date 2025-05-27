@@ -1,0 +1,32 @@
+{
+  "name": "data-siswa-analysis",
+  "version": "1.0.0",
+  "description": "Analysis of student gadget usage and mental health data",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.12.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "canvas": "^2.11.2",
+    "csv-parser": "^3.0.0",
+    "d3": "^7.8.5",
+    "jstat": "^1.9.5",
+    "ml-kmeans": "^7.0.0",
+    "ml-silhouette": "^1.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "data-analysis",
+    "machine-learning",
+    "k-means",
+    "statistics"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
